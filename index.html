@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="calculator.png" type="image/x-png" >
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="container" class="calculator">
+        <div class="calculator__display" id="output">0</div>
+        <hr>
+        <section id="claculation" class="calculator__keys">
+            <section id="main">
+                <div id="numbers">
+                    <div class="num">
+                        <div class="input">1</div>
+                        <div class="input">2</div>
+                        <div class="input">3</div>
+                    </div>
+                    <div class="num">
+                        <div class="input">4</div>
+                        <div class="input">5</div>
+                        <div class="input">6</div>
+                    </div>
+                    <div class="num">
+                        <div class="input">7</div>
+                        <div class="input">8</div>
+                        <div class="input">9</div>
+                    </div>
+                    <div class="num">
+                        <div id="clear" class="input" data-action="clear">AC</div>
+                        <div class="input">0</div>
+                        <div id="decimal" class="input" data-action="decimal">.</div>
+                    </div>
+                </div>
+            </section>
+            <section id="operation">
+                <div id="sum" class="input" data-action="sum">+</div>
+                <div id="multi" class="input" data-action="multi">*</div>
+                <div id="minus" class="input" data-action="minus">-</div>
+                <div id="div" class="input" data-action="div">/</div>
+            </section>
+            <div id="equal" class="input" data-action="equal">=</div>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

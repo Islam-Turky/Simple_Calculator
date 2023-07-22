@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: none;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: #111;
+    padding: 9px;
+    gap: 40px;
+    border-radius: 20px;
+}
+
+#claculation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#claculation #main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#output{
+    max-width: 285px;
+    min-height: 150px;
+    background-color: #111;
+    padding: 10px;
+    font-size: 50px;
+    color: #fff;
+}
+
+#container #claculation #main #numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#container #claculation #main #numbers .num{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+
+#container #claculation #main #numbers .num div{
+    background-color: rgba(0, 0, 0, 0.384);
+    padding: 15px 0;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    user-select: none;
+    font-weight: bolder;
+}
+
+#container #claculation #operation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+#container #claculation #operation div{
+    background-color: rgba(255, 166, 0, 0.884);
+    padding: 15px 0;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    user-select: none;
+}
+
+.is-depressed{
+    opacity: 0.2;
+}
+
+#equal {
+    height: 250px;
+    padding: 100px 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffffb0;
+    font-weight: bolder;
+    font-size: large;
+}
