@@ -45,6 +45,7 @@ button{
     padding: 10px;
     font-size: 50px;
     color: #fff;
+    overflow-x: scroll;
 }
 
 #container #claculation #main #numbers{
