@@ -101,11 +101,24 @@ button{
 }
 
 #equal {
-    height: 250px;
+    height: 150px;
     padding: 100px 15px;
     border-radius: 10px;
-    text-align: center;
     background-color: #ffffffb0;
+    text-align: center;
     font-weight: bolder;
     font-size: large;
+    cursor: pointer;
+    user-select: none;
+}
+
+#del {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.884);
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    user-select: none;
+    cursor: pointer;
 }
